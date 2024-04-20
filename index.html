@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligibility Check</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Eligibility Check</h1>
+            <form id="eligibilityForm">
+                <label for="diploma">Please input your diploma initials (e.g., CS, CP): </label>
+                <input type="text" id="diploma" name="diploma" required><br>
+                
+                <label for="experience">Please input your years of experience: </label>
+                <input type="number" id="experience" name="experience" required><br>
+                
+                <label for="graduation">Please enter your graduation date (year): </label>
+                <input type="number" id="graduation" name="graduation" required><br>
+                
+                <label for="skill">Please enter an important skill for the job: </label>
+                <input type="text" id="skill" name="skill" required><br>
+                
+                <input type="button" value="Check Eligibility" id="checkEligibilityBtn">
+            </form>
+            <div id="result"></div> <!-- Result area -->
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
